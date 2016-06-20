@@ -11,6 +11,7 @@ end
 
 application app_path do
   javascript "4"
+  javascript_runtime "5.0.0"
   environment.update("PORT" => "80")
   environment.update(app["environment"])
 
